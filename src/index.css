@@ -16,28 +16,30 @@ body, section, input, textarea{
 .grid-container{
   display: grid;
   grid-template-areas: "header" "main" "footer";
-  grid-template-columns: 1fr;
   grid-template-rows: 5rem 1fr 5rem;
+  grid-template-columns: 1fr;
   height: 100%;
 }
+
 a:hover{
   color: coral;
 }
+
 header{
   grid-area: header;
   background: #203040;
+  padding: .5rem;
   display: flex;
   align-items: center;
-  padding: .5rem;
 }
-
 header a{
-  color: #fff;
   text-decoration: none;
+color: #fff;
 }
 
 main{
   grid-area: main;
+ 
 }
 
 footer{

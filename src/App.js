@@ -2,11 +2,13 @@
 function App() {
   return (
     <div className="grid-container">
-      <header>
+      <header className="header">
         <a href="/">React shopping cart</a>
       </header>
-      <main>Product List</main>
-      <footer>All right is reserved.</footer>
+      <main>
+        product list
+      </main>
+      <footer>All right is reserved</footer>
     </div>
   );
 }
